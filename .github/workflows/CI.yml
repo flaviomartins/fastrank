@@ -38,7 +38,7 @@ jobs:
         # macos-latest currently tracks macos-26 (arm64); macos-26-intel keeps
         # the x86_64 macOS build on the same OS/Xcode generation.
         # See available runner images/labels: https://github.com/actions/runner-images
-        os: [ubuntu-24.04, ubuntu-24.04-arm, macos-26-intel, macos-26, windows-latest]
+        os: [ubuntu-26.04, ubuntu-26.04-arm, macos-26-intel, macos-26, windows-latest]
 
     steps:
       - uses: actions/checkout@v7
